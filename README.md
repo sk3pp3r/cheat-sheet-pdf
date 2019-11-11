@@ -13,6 +13,7 @@
 1. Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.
    1. [Docker](pdf/docker.pdf)
    1. [Docker by JRebel](pdf/docker_by_jrebel.pdf)
+   1. [Docker Security](pdf/docker-security.pdf)
 1. [Ansible](pdf/ansible.pdf) is the simplest way to automate apps and IT infrastructure.
 1. [Python](pdf/python_beginners.pdf) is an interpreted, high-level, general-purpose programming language.
 1. [Go](pdf/go_golang.pdf) also known as Golang, is a statically typed, compiled programming language designed at Google.
