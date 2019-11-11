@@ -2,12 +2,12 @@
 
 ![Cheat Sheet](~img/cheatcheet.jpg)
 
-## Rules
+## :scroll: Rules
 
-* Only PDF
-* Contributors are **welcome**
+* PDF only :exclamation:
+* Contributors are **welcome** :+1:
 
-### List of cheat-sheet
+### :pushpin: List of cheat-sheet
 
 1. [Nginx](pdf/nginx.pdf) is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
 1. Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.
