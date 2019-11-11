@@ -9,3 +9,5 @@
   2. [Docker](pdf/docker.pdf) is a tool designed to make it easier to create, deploy, and run applications by using containers.
   3. [Ansible](pdf/ansible.pdf) is the simplest way to automate apps and IT infrastructure.
   4. [Python](pdf/python_beginners.pdf) is an interpreted, high-level, general-purpose programming language.
+  5. [Git](pdf/git_by_github) is the open source distributed version control system that facilitates GitHub activities on
+your laptop or desktop.
