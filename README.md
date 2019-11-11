@@ -1,5 +1,7 @@
 # Cheat-Sheet Collection for DevOps, Engineers, IT and more
 
+![Cheat Sheet](~img/cheatcheet.jpg)
+
 ## Rules
 
 * Only PDF
