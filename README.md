@@ -15,6 +15,7 @@
 1. Git is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop.
    1. [Git by Atlassian](pdf/atlassian-git-cheatsheet.pdf).
    1. [Git by GitHub](pdf/git_by_github.pdf).
+   1. [Git by Git-Tower](pdf/git_by_git-tower.pdf)
 1. [Regex](pdf/regex.pdf) is a special text string for describing a search pattern.
    1. [Regex for Python](pdf/python-regular-expression-regex.pdf)
 
