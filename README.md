@@ -32,3 +32,4 @@
 1. Linux
     1. [bash](pdf/linux-bash.pdf)is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
     1. [Network-tools](pdf/linux-networing-tools.pdf) ping, curl, wget, ssh and more network tools.
+1. [Redis](pdf/redis.pdf) is an in-memory data structure store, used as a database, cache and message broker.
