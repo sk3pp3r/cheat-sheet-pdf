@@ -1,4 +1,4 @@
-# cheat-sheet collection 
+# Cheat-Sheet Collection for DevOps, Engineers, IT and more. 
 
 # Rules
 * Only PDF
