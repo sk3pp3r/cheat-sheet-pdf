@@ -1,2 +1,6 @@
 # cheat-sheet collection 
-## Ruled: only PDF
+## Rules: 
+*  Simple, Only PDF
+
+## Contributors
+* Contributors are welcome 
