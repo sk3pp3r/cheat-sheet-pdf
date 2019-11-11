@@ -1,2 +1,2 @@
-# cheatsheetpdf
-a cheat-sheet collection 
+# cheat-sheet collection 
+## Ruled: only PDF
