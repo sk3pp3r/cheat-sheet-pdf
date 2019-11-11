@@ -27,3 +27,4 @@
 1. [VIM](pdf/vim-cheat-sheet.pdf) aka `Vi IMproved` is a highly configurable text editor for efficiently creating and changing any kind of text.
 1. [Jenkins](pdf/Jenkins-Cheat-Sheet-converted.pdf) an open source automation server which enables developers around the world to reliably build, test, and deploy their software.
 1. [CI/CD](pdf/cicd-framework_by_densify.pdf) Continuous Integration and Continuous Delivery (CI/CD) have made the practice of software development increasingly complex—and overwhelming.
+1. [Kubernetes-K8s](pdf/Kubernetes-Cheat-Sheet.pdf) is an open-source system for automating deployment, scaling, and management of containerized applications.
