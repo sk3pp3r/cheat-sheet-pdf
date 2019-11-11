@@ -7,6 +7,7 @@
 
 
 # List of cheat-sheet
+
 1. [Nginx](pdf/nginx.pdf) is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
 1. [Docker](pdf/docker.pdf) is a tool designed to make it easier to create, deploy, and run applications by using containers.
 1. [Ansible](pdf/ansible.pdf) is the simplest way to automate apps and IT infrastructure.
@@ -20,3 +21,4 @@
    1. [Regex](pdf/regex.pdf)
    1. [Regex for Python](pdf/python-regular-expression-regex.pdf)
 1. [PowerShell](pdf/Powershell.pdf) is a task automation and configuration management framework from Microsoft.
+1. [VIM](pdf/vim-cheat-sheet.pdf) aka `Vi IMproved` is a highly configurable text editor for efficiently creating and changing any kind of text. 
