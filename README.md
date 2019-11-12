@@ -45,6 +45,7 @@
               1. [Nmap](pdf/Nmap-Cheat-Sheet.pdf) Cheat Sheet by comparitech. :new:
           1. [OpenSSL](pdf/openssl.pdf) :new:
           1. [Ethtool](pdf/ethtool.pdf) :new:
+          1. [ngrep](pdf/ngrep.pdf) :new:
 1. [Redis](pdf/redis.pdf) is an in-memory data structure store, used as a database, cache and message broker.
 1. [Slack](pdf/slack.pdf) is a messaging tool for making communication fast and easy. It lets you share messages and files with your team, organized by channel.
 1. [Puppet](pdf/puppet) lets you automate the enforcement, security, and delivery of your hybrid or cloud-native infrastructure.
