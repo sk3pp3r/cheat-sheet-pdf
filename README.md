@@ -30,6 +30,9 @@
 1. [CI/CD](pdf/cicd-framework_by_densify.pdf) Continuous Integration and Continuous Delivery (CI/CD) have made the practice of software development increasingly complex—and overwhelming.
 1. [Kubernetes K8s](pdf/Kubernetes-Cheat-Sheet.pdf) is an open-source system for automating deployment, scaling, and management of containerized applications.
 1. Linux
-    1. [bash](pdf/linux-bash.pdf)is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
-    1. [Network-tools](pdf/linux-networing-tools.pdf) ping, curl, wget, ssh and more network tools.
+    1. Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
+       1. [Linux Command 1](pdf/linux-bash.pdf)
+       1. [Linux Command 2](pdf/linux-bash-terminal.pdf)
+    1. [Network-tools](pdf/linux-networing-tools.pdf): ping, curl, wget, ssh and more network tools.
 1. [Redis](pdf/redis.pdf) is an in-memory data structure store, used as a database, cache and message broker.
+1. [Slack](pdf/slack) is a messaging tool for making communication fast and easy. It lets you share messages and files with your team, organized by channel.
