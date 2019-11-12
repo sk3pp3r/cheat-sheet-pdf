@@ -29,8 +29,8 @@
 1. [Jenkins](pdf/Jenkins-Cheat-Sheet-converted.pdf) an open source automation server which enables developers around the world to reliably build, test, and deploy their software.
 1. [CI/CD](pdf/cicd-framework_by_densify.pdf) Continuous Integration and Continuous Delivery (CI/CD) have made the practice of software development increasingly complex—and overwhelming.
 1. Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
-    1. [Kubernetes K8s](pdf/Kubernetes-Cheat-Sheet.pdf)
-    1. [Kubectl](pdf/kunectl.pdf) is a command line interface for running commands against Kubernetes clusters.
+    1. [Kubernetes K8s](pdf/Kubernetes-Cheat-Sheet.pdf) Cheat-Sheet.
+    1. [Kubectl](pdf/kubectl.pdf) is a command line interface for running commands against Kubernetes clusters.
 1. Linux
     1. Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
        1. [Linux Command 1](pdf/linux-bash.pdf)
