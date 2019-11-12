@@ -35,4 +35,4 @@
        1. [Linux Command 2](pdf/linux-bash-terminal.pdf)
     1. [Network-tools](pdf/linux-networing-tools.pdf): ping, curl, wget, ssh and more network tools.
 1. [Redis](pdf/redis.pdf) is an in-memory data structure store, used as a database, cache and message broker.
-1. [Slack](pdf/slack) is a messaging tool for making communication fast and easy. It lets you share messages and files with your team, organized by channel.
+1. [Slack](pdf/slack.pdf) is a messaging tool for making communication fast and easy. It lets you share messages and files with your team, organized by channel.
