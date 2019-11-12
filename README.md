@@ -35,5 +35,6 @@
        1. [Linux Command 2](pdf/linux-bash-terminal.pdf)
     1. [Network-tools](pdf/linux-networing-tools.pdf): ping, curl, wget, ssh and more network tools.
     1. [Cron](pdf/cron.pdf) is a time-based job scheduler in Unix-like computer operating systems.
+    1. [Rsync](pdf/rsync.pdf) is a fast and extraordinarily versatile file copying tool. It can copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon.
 1. [Redis](pdf/redis.pdf) is an in-memory data structure store, used as a database, cache and message broker.
 1. [Slack](pdf/slack.pdf) is a messaging tool for making communication fast and easy. It lets you share messages and files with your team, organized by channel.
