@@ -35,6 +35,7 @@
     1. Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
        1. [Linux Command 1](pdf/linux-bash.pdf)
        1. [Linux Command 2](pdf/linux-bash-terminal.pdf)
+       1. [Linux Network Tools](pdf/linux-networking-tool)
     1. [Network-tools](pdf/linux-networing-tools.pdf): ping, curl, wget, ssh and more network tools.
           1. [Cron](pdf/cron.pdf) is a time-based job scheduler in Unix-like computer operating systems.
           1. [Rsync](pdf/rsync.pdf) is a fast and extraordinarily versatile file copying tool. It can copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon.
