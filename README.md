@@ -36,29 +36,29 @@
        1. [Linux Commands 1](pdf/linux-bash.pdf)
        1. [Linux Commands 2](pdf/linux-bash-terminal.pdf)
        1. [Linux Commands 3](pdf/linux_commands.pdf)
-       1. [Linux Network Tools](pdf/linux-networking-tool), Every Linux networking tool I know :new:
+       1. [Linux Network Tools](pdf/linux-networking-tool), Every Linux networking tool I know
     1. [Network-tools](pdf/linux-networing-tools.pdf): ping, curl, wget, ssh and more network tools.
           1. [Cron](pdf/cron.pdf) is a time-based job scheduler in Unix-like computer operating systems.
           1. [Rsync](pdf/rsync.pdf) is a fast and extraordinarily versatile file copying tool. It can copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon.
-          1. [cURL](pdf/curl.pdf) :new:
-          1. [SSH](pdf/ssh.pdf) :new:
-          1. [NC](pdf/netcat.pdf) :new:
-          1. [Nmap](pdf/nmap.pdf) :new:
-              1. [Nmap](pdf/Nmap-Cheat-Sheet.pdf) Cheat Sheet by comparitech. :new:
-          1. [OpenSSL](pdf/openssl.pdf) :new:
-          1. [Ethtool](pdf/ethtool.pdf) :new:
-          1. [ngrep](pdf/ngrep.pdf) :new:
-          1. [grep](pdf/grep.pdf) :new:
-          1. [xargs](pdf/xargs.pdf) :new:
-          1. [find](pdf/find.pdf) :new:
-          1. [awk](pdf/awk.pdf) :new:
-          1. [sed](pdf/sed.pdf) :new:
-          1. [tar](pdf/tar.pdf) :new:
-          1. [ps](pdf/ps.pdf) :new:
-          1. [top](pdf/top.pdf) :new:
+          1. [cURL](pdf/curl.pdf)
+          1. [SSH](pdf/ssh.pdf)
+          1. [NC](pdf/netcat.pdf)
+          1. [Nmap](pdf/nmap.pdf)
+              1. [Nmap](pdf/Nmap-Cheat-Sheet.pdf) Cheat Sheet by comparitech.
+          1. [OpenSSL](pdf/openssl.pdf)
+          1. [Ethtool](pdf/ethtool.pdf)
+          1. [ngrep](pdf/ngrep.pdf)
+          1. [grep](pdf/grep.pdf)
+          1. [xargs](pdf/xargs.pdf)
+          1. [find](pdf/find.pdf)
+          1. [awk](pdf/awk.pdf)
+          1. [sed](pdf/sed.pdf)
+          1. [tar](pdf/tar.pdf)
+          1. [ps](pdf/ps.pdf)
+          1. [top](pdf/top.pdf)
 
 1. [Redis](pdf/redis.pdf) is an in-memory data structure store, used as a database, cache and message broker.
 1. [Slack](pdf/slack.pdf) is a messaging tool for making communication fast and easy. It lets you share messages and files with your team, organized by channel.
 1. [Puppet](pdf/puppet) lets you automate the enforcement, security, and delivery of your hybrid or cloud-native infrastructure.
-1. [Google Cloud Developer](pdf/GoogleCloudDeveloper.pdf) builds scalable and highly available applications using Google recommended practices and tools that leverage fully managed services. :new:
-1. [AI, Neural Networks, Machine Learning, Deep Learning & Data Science](pdf/AI_ML.pdf) is intelligence demonstrated by machines. :new:
+1. [Google Cloud Developer](pdf/GoogleCloudDeveloper.pdf) builds scalable and highly available applications using Google recommended practices and tools that leverage fully managed services.
+1. [AI, Neural Networks, Machine Learning, Deep Learning & Data Science](pdf/AI_ML.pdf) is intelligence demonstrated by machines.
