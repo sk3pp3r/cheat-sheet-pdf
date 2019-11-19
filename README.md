@@ -33,8 +33,9 @@
     1. [Kubectl](pdf/kubectl.pdf) is a command line interface for running commands against Kubernetes clusters.
 1. Linux
     1. Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
-       1. [Linux Command 1](pdf/linux-bash.pdf)
-       1. [Linux Command 2](pdf/linux-bash-terminal.pdf)
+       1. [Linux Commands 1](pdf/linux-bash.pdf)
+       1. [Linux Commands 2](pdf/linux-bash-terminal.pdf)
+       1. [Linux Commands 3](pdf/linux_commands.pdf)
        1. [Linux Network Tools](pdf/linux-networking-tool), Every Linux networking tool I know :new:
     1. [Network-tools](pdf/linux-networing-tools.pdf): ping, curl, wget, ssh and more network tools.
           1. [Cron](pdf/cron.pdf) is a time-based job scheduler in Unix-like computer operating systems.
