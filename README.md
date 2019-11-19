@@ -15,7 +15,9 @@
    1. [Docker by JRebel](pdf/docker_by_jrebel.pdf)
    1. [Docker Security](pdf/docker-security.pdf)
 1. [Ansible](pdf/ansible.pdf) is the simplest way to automate apps and IT infrastructure.
-1. [Python](pdf/python_beginners.pdf) is an interpreted, high-level, general-purpose programming language.
+1. Python is an interpreted, high-level, general-purpose programming language.
+   1. [Python 3 the basics](pdf/cheatsheet-python-grok.pdf)
+   1. [Python](pdf/python_beginners.pdf)
 1. [Go](pdf/go_golang.pdf) also known as Golang, is a statically typed, compiled programming language designed at Google.
 1. Git is the open source distributed version control system that facilitates GitHub activities on your laptop or desktop.
    1. [Git by Atlassian](pdf/atlassian-git-cheatsheet.pdf).
