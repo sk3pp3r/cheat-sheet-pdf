@@ -23,6 +23,7 @@
    1. [Git by Atlassian](pdf/atlassian-git-cheatsheet.pdf).
    1. [Git by GitHub](pdf/git_by_github.pdf).
    1. [Git by Git-Tower](pdf/git_by_git-tower.pdf)
+   1. [Git/GitHub - Pull Request](pdf/github.pdf)
 1. Regular expression also known as Regex is a special text string for describing a search pattern.
    1. [Regex](pdf/regex.pdf)
    1. [Regex for Python](pdf/python-regular-expression-regex.pdf)
