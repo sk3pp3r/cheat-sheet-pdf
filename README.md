@@ -66,3 +66,4 @@
 1. [Google Cloud Developer](pdf/GoogleCloudDeveloper.pdf) builds scalable and highly available applications using Google recommended practices and tools that leverage fully managed services.
 1. [AI, Neural Networks, Machine Learning, Deep Learning & Data Science](pdf/AI_ML.pdf) is intelligence demonstrated by machines.
 1. [PostgreSQL](pdf/PostgreSQL-Cheat-Sheet.pdf) is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance.
+1. [Ajax](pdf/ajax.pdf) AJAX = Asynchronous JavaScript And XML.
