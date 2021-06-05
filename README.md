@@ -67,4 +67,7 @@
 1. [AI, Neural Networks, Machine Learning, Deep Learning & Data Science](pdf/AI_ML.pdf) is intelligence demonstrated by machines.
 1. [PostgreSQL](pdf/PostgreSQL-Cheat-Sheet.pdf) is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance.
 1. [Ajax](pdf/ajax.pdf) AJAX = Asynchronous JavaScript And XML.
-1. [Amazon Web Services (AWS)](pdf/AWS-Basic-Cheat-Sheet.pdf) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. 
+1. Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.
+   1. [AWS: The Basic](pdf/AWS-Basic-Cheat-Sheet.pdf)
+   1. [AWS Services](pdf/aws-services.pdf)
+   1. [AWS Cost Information](pdf/aws-cost.pdf)
