@@ -59,6 +59,7 @@
           1. [tar](pdf/tar.pdf)
           1. [ps](pdf/ps.pdf)
           1. [top](pdf/top.pdf)
+          1. [Wireshark](pdf/Wireshark.pdf) is a free and open-source packet analyzer.
 
 1. [Redis](pdf/redis.pdf) is an in-memory data structure store, used as a database, cache and message broker.
 1. [Slack](pdf/slack.pdf) is a messaging tool for making communication fast and easy. It lets you share messages and files with your team, organized by channel.
