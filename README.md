@@ -6,7 +6,7 @@
 
 * PDF only :exclamation:
 * Contributors are **welcome** :+1:
-
+* If you like it - give me a :star:
 ### :pushpin: List of cheat-sheet
 
 1. [Nginx](pdf/nginx.pdf) is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
