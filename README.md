@@ -1,5 +1,7 @@
 # Cheat-Sheet Collection for DevOps, Engineers, IT and more
 
+[![CI](https://github.com/sk3pp3r/cheat-sheet-pdf/actions/workflows/blank.yml/badge.svg)](https://github.com/sk3pp3r/cheat-sheet-pdf/actions/workflows/blank.yml)
+
 ![Cheat Sheet](~img/cheatcheet.jpg)
 
 ## :scroll: Rules
