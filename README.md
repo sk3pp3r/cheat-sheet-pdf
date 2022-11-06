@@ -76,3 +76,7 @@
    1. [AWS Cost Information](pdf/aws-cost.pdf)
 1. Infrastructure as code (IaC), is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.
    1. [Terraform](pdf/terraform-cheatsheet1-.pdf) is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.
+   
+***
+<a href="https://www.buymeacoffee.com/bsNJ3ySu2" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
