@@ -78,5 +78,5 @@
    1. [Terraform](pdf/terraform-cheatsheet1-.pdf) is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.
    
 ***
-<a href="https://www.buymeacoffee.com/haim_cohen" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<p align="center"> <a href="https://www.buymeacoffee.com/haim_cohen" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a></p>
 
