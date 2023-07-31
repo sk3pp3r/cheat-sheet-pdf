@@ -102,6 +102,9 @@ Before we delve into the cheat-sheets, here are some essential rules to keep in 
 1. Infrastructure as Code (IaC): IaC is the process of managing and provisioning computer data centers through machine-readable definition files.
    - [Terraform](pdf/terraform-cheatsheet1-.pdf): Terraform is an open-source infrastructure-as-code software tool for managing cloud services.
 
+1. System Design: System Design is defined as a process of creating an architecture for different components, interfaces, and modules of the system and providing corresponding data helpful in implementing such elements in systems.
+   - [System Design Blueprint](pdf/System_Design_Blueprint.pdf): Terraform is an open-source infrastructure-as-code software tool for managing cloud services.
+
 If you find this collection helpful, consider supporting the project by [buying us a coffee](https://www.buymeacoffee.com/haim_cohen).
 
 Thank you for using our cheat-sheet collection! Happy coding! :rocket:
