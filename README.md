@@ -3,7 +3,7 @@
 
 Welcome to the Cheat-Sheet Collection for DevOps, Engineers, IT professionals, and more! This repository contains a curated list of cheat sheets for various tools and technologies commonly used in the software development and IT industry.
 
-![Cheat Sheet](~img/cheatcheet.jpg)
+![Cheat Sheet](~img/cheat-sheet-main.png)
 
 ## :scroll: Rules
 
