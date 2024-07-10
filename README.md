@@ -9,36 +9,35 @@ Welcome to the Cheat-Sheet Collection for DevOps, Engineers, IT professionals, a
 
 Before diving into the cheat sheets, please keep these essential rules in mind:
 
-* All cheat sheets are provided in PDF format only.
 * Contributions are warmly welcomed to improve and expand the collection.
 * If you find the cheat sheets helpful, show your appreciation by giving us a :star: on GitHub.
 
 ## :pushpin: Index of Cheat-Sheets
 
-1. [Nginx](#nginx)
-2. [Docker](#docker)
-3. [Ansible](#ansible)
-4. [Python](#python)
-5. [Go (Golang)](#go-golang)
-6. [Git](#git)
-7. [Regular Expressions (Regex)](#regular-expressions-regex)
-8. [PowerShell](#powershell)
-9. [VIM](#vim)
-10. [Jenkins](#jenkins)
-11. [Continuous Integration and Continuous Delivery (CI/CD)](#continuous-integration-and-continuous-delivery-cicd)
-12. [Kubernetes](#kubernetes)
-13. [Linux](#linux)
-14. [Redis](#redis)
-15. [Slack](#slack)
-16. [Puppet](#puppet)
-17. [Google Cloud Developer](#google-cloud-developer)
-18. [AI, Neural Networks, Machine Learning, Deep Learning & Data Science](#ai-neural-networks-machine-learning-deep-learning-data-science)
-19. [PostgreSQL](#postgresql)
-20. [Ajax](#ajax)
-21. [Amazon Web Services (AWS)](#amazon-web-services-aws)
-22. [Infrastructure as Code (IaC)](#infrastructure-as-code-iac)
-23. [System Design](#system-design)
-24. [Cyber Security 101](#cyber-security-101)
+1. [Nginx :whale:](#nginx-whale)
+2. [Docker :whale:](#docker-whale)
+3. [Ansible :hammer_and_wrench:](#ansible-hammer_and_wrench)
+4. [Python :snake:](#python-snake)
+5. [Go (Golang) :racehorse:](#go-golang-racehorse)
+6. [Git :octocat:](#git-octocat)
+7. [Regular Expressions (Regex) :mag:](#regular-expressions-regex-mag)
+8. [PowerShell :electric_plug:](#powershell-electric_plug)
+9. [VIM :keyboard:](#vim-keyboard)
+10. [Jenkins :construction_worker:](#jenkins-construction_worker)
+11. [Continuous Integration and Continuous Delivery (CI/CD) :repeat:](#continuous-integration-and-continuous-delivery-cicd-repeat)
+12. [Kubernetes :ship:](#kubernetes-ship)
+13. [Linux :penguin:](#linux-penguin)
+14. [Redis :floppy_disk:](#redis-floppy_disk)
+15. [Slack :speech_balloon:](#slack-speech_balloon)
+16. [Puppet 🐕](#puppet-🐕)
+17. [Google Cloud Developer :cloud:](#google-cloud-developer-cloud)
+18. [AI, Neural Networks, Machine Learning, Deep Learning & Data Science :robot:](#ai-neural-networks-machine-learning-deep-learning-data-science-robot)
+19. [PostgreSQL :elephant:](#postgresql-elephant)
+20. [Ajax :arrows_counterclockwise:](#ajax-arrows_counterclockwise)
+21. [Amazon Web Services (AWS) :cloud_with_lightning_and_rain:](#amazon-web-services-aws-cloud_with_lightning_and_rain)
+22. [Infrastructure as Code (IaC) :building_construction:](#infrastructure-as-code-iac-building_construction)
+23. [System Design :gear:](#system-design-gear)
+24. [Cyber Security :lock:](#cyber-security-lock)
 
 ---
 
