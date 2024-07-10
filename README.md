@@ -112,6 +112,7 @@ Before diving into the cheat sheets, please keep these essential rules in mind:
 * [ps](pdf/ps.pdf)
 * [top](pdf/top.pdf)
 * [Wireshark](pdf/wireshark.pdf): Wireshark is a free and open-source packet analyzer.
+* [Linux File Systems](pdf/LinuxFileSystems.gif): The Linux file system used to resemble an unorganized town where individuals constructed their houses wherever they pleased.
 
 ### Redis :floppy_disk:
 * [Redis](pdf/redis.pdf): Redis is an in-memory data structure store used as a database, cache, and message broker.
