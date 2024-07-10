@@ -147,6 +147,8 @@ Before diving into the cheat sheets, please keep these essential rules in mind:
 
 ### Cyber Security 101 :lock:
 * [Cyber Security 101](pdf/cybersecurity-101.gif): Fundamentals of Cybersecurity Topics.
+* [What is DevSecOps?](pdf/devsecops.gif): DevSecOps emerged as a natural evolution of DevOps practices with a focus on integrating security into the software development and deployment process. The term "DevSecOps" represents the convergence of Development (Dev), Security (Sec), and Operations (Ops) practices, emphasizing the importance of security throughout the software development lifecycle.
+
 
 ---
 
