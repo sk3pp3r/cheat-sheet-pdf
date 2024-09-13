@@ -29,7 +29,7 @@ Before diving into the cheat sheets, please keep these essential rules in mind:
 13. [Linux :penguin:](#linux-penguin)
 14. [Redis :floppy_disk:](#redis-floppy_disk)
 15. [Slack :speech_balloon:](#slack-speech_balloon)
-16. [Puppet 🐕](#puppet-🐕)
+16. [Puppet :dog2:](#puppet-dog2)
 17. [Google Cloud Developer :cloud:](#google-cloud-developer-cloud)
 18. [AI, Neural Networks, Machine Learning, Deep Learning & Data Science :robot:](#ai-neural-networks-machine-learning-deep-learning-data-science-robot)
 19. [PostgreSQL :elephant:](#postgresql-elephant)
@@ -119,7 +119,7 @@ Before diving into the cheat sheets, please keep these essential rules in mind:
 ### Slack :speech_balloon:
 * [Slack](pdf/slack.pdf): Slack is a messaging tool for fast and easy communication within teams, organized by channels.
 
-### Puppet 🐕
+### Puppet :dog2:
 * [Puppet](pdf/puppet): Puppet lets you automate the enforcement, security, and delivery of your hybrid or cloud-native infrastructure.
 
 ### Google Cloud Developer :cloud:
