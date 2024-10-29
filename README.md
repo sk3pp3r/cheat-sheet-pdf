@@ -120,7 +120,7 @@ Before diving into the cheat sheets, please keep these essential rules in mind:
 * [Slack](pdf/slack.pdf): Slack is a messaging tool for fast and easy communication within teams, organized by channels.
 
 ### Puppet 🐕
-* [Puppet](pdf/puppet): Puppet lets you automate the enforcement, security, and delivery of your hybrid or cloud-native infrastructure.
+* [Puppet](pdf/puppet.pdf): Puppet lets you automate the enforcement, security, and delivery of your hybrid or cloud-native infrastructure.
 
 ### Google Cloud Developer :cloud:
 * [Google Cloud Developer](pdf/GoogleCloudDeveloper.pdf): This cheat sheet covers building scalable and highly available applications using Google-recommended practices and tools that leverage fully managed services.
