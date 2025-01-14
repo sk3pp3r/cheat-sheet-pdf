@@ -1,5 +1,7 @@
 
 # DevOps and IT Cheat-Sheet Collection
+![stars](https://img.shields.io/github/stars/sk3pp3r/cheat-sheet-pdf?style=for-the-badge) ![watchers](https://img.shields.io/github/forks/sk3pp3r/cheat-sheet-pdf?color=orange&style=for-the-badge)
+
 
 Welcome to the Cheat-Sheet Collection for DevOps, Engineers, IT professionals, and more! This repository contains a curated list of cheat sheets for various tools and technologies commonly used in the software development and IT industry.
 
