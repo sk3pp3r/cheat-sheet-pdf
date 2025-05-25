@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheat Sheet PDF</title>
+    <title>DevOps and IT Cheat-Sheet Collection</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,6 +14,7 @@
             --bg-color: #ffffff;
             --secondary-bg: #f3f4f6;
             --border-color: #e5e7eb;
+            --card-hover: #f8fafc;
         }
 
         * {
@@ -58,30 +59,14 @@
             text-decoration: none;
         }
 
-        nav ul {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-
-        nav a {
-            color: var(--text-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-
-        nav a:hover {
-            color: var(--primary-color);
-        }
-
         .hero {
             padding: 4rem 0;
             text-align: center;
+            background-color: var(--secondary-bg);
         }
 
         .hero h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 1rem;
             line-height: 1.2;
@@ -90,48 +75,68 @@
         .hero p {
             font-size: 1.25rem;
             color: #4b5563;
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto 2rem;
         }
 
-        .cta-button {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: white;
-            padding: 0.75rem 1.5rem;
-            border-radius: 0.5rem;
-            text-decoration: none;
-            font-weight: 500;
-            transition: background-color 0.2s;
-        }
-
-        .cta-button:hover {
-            background-color: #1d4ed8;
-        }
-
-        .features {
+        .cheat-sheets {
             padding: 4rem 0;
-            background-color: var(--secondary-bg);
         }
 
-        .features-grid {
+        .cheat-sheets-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
         }
 
-        .feature-card {
+        .cheat-sheet-card {
             background-color: var(--bg-color);
-            padding: 2rem;
+            border: 1px solid var(--border-color);
             border-radius: 1rem;
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            padding: 1.5rem;
+            transition: all 0.3s ease;
         }
 
-        .feature-card h3 {
-            font-size: 1.5rem;
+        .cheat-sheet-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            background-color: var(--card-hover);
+        }
+
+        .cheat-sheet-card h3 {
+            font-size: 1.25rem;
             margin-bottom: 1rem;
             color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .cheat-sheet-card ul {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        .cheat-sheet-card li {
+            margin-bottom: 0.5rem;
+        }
+
+        .cheat-sheet-card a {
+            color: var(--text-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .cheat-sheet-card a:hover {
+            color: var(--primary-color);
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: var(--text-color);
         }
 
         footer {
@@ -141,14 +146,21 @@
             border-top: 1px solid var(--border-color);
         }
 
-        @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                gap: 1rem;
-            }
+        .support-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
 
-            nav ul {
-                gap: 1rem;
+        .support-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
             }
 
             .hero h1 {
@@ -158,47 +170,257 @@
             .hero p {
                 font-size: 1rem;
             }
+
+            .cheat-sheets-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container header-content">
-            <a href="/" class="logo">Cheat Sheet PDF</a>
-            <nav>
-                <ul>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#download">Download</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
+            <a href="/" class="logo">DevOps & IT Cheat Sheets</a>
         </div>
     </header>
 
     <main>
         <section class="hero">
             <div class="container">
-                <h1>Your Ultimate Programming Cheat Sheet</h1>
-                <p>Access comprehensive programming references, syntax guides, and best practices all in one place. Perfect for developers of all levels.</p>
-                <a href="#download" class="cta-button">Get Started</a>
+                <h1>DevOps and IT Cheat-Sheet Collection</h1>
+                <p>Welcome to the Cheat-Sheet Collection for DevOps, Engineers, IT professionals, and more! This repository contains a curated list of cheat sheets for various tools and technologies commonly used in the software development and IT industry.</p>
             </div>
         </section>
 
-        <section class="features" id="features">
+        <section class="cheat-sheets">
             <div class="container">
-                <h2>Features</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <h3>Comprehensive Coverage</h3>
-                        <p>Access detailed information about various programming languages, frameworks, and tools.</p>
+                <h2 class="section-title">Available Cheat Sheets</h2>
+                <div class="cheat-sheets-grid">
+                    <div class="cheat-sheet-card">
+                        <h3>🐳 Nginx</h3>
+                        <p>Nginx is open-source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.</p>
+                        <ul>
+                            <li><a href="pdf/nginx.pdf">Nginx Cheat Sheet</a></li>
+                        </ul>
                     </div>
-                    <div class="feature-card">
-                        <h3>Easy to Use</h3>
-                        <p>Well-organized content with clear sections and intuitive navigation.</p>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🐳 Docker</h3>
+                        <p>Docker is a tool designed to make it easier to create, deploy, and run applications using containers.</p>
+                        <ul>
+                            <li><a href="pdf/docker.pdf">Docker Cheat Sheet</a></li>
+                            <li><a href="pdf/docker_by_jrebel.pdf">Docker by JRebel</a></li>
+                            <li><a href="pdf/docker-security.pdf">Docker Security</a></li>
+                        </ul>
                     </div>
-                    <div class="feature-card">
-                        <h3>Regular Updates</h3>
-                        <p>Stay current with the latest programming practices and technologies.</p>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🔧 Ansible</h3>
+                        <p>Ansible is the simplest way to automate apps and IT infrastructure.</p>
+                        <ul>
+                            <li><a href="pdf/ansible.pdf">Ansible Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🐍 Python</h3>
+                        <p>Python is a high-level, interpreted programming language known for its simplicity and versatility.</p>
+                        <ul>
+                            <li><a href="pdf/cheatsheet-python-grok.pdf">Python 3 - The Basics</a></li>
+                            <li><a href="pdf/python_beginners.pdf">Python for Beginners</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🐎 Go (Golang)</h3>
+                        <p>Go, also known as Golang, is a statically typed, compiled programming language designed at Google.</p>
+                        <ul>
+                            <li><a href="pdf/go_golang.pdf">Go (Golang) Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🐙 Git</h3>
+                        <p>Git is a distributed version control system for tracking changes in source code.</p>
+                        <ul>
+                            <li><a href="pdf/atlassian-git-cheatsheet.pdf">Git by Atlassian</a></li>
+                            <li><a href="pdf/git_by_github.pdf">Git by GitHub</a></li>
+                            <li><a href="pdf/git_by_git-tower.pdf">Git by Git-Tower</a></li>
+                            <li><a href="pdf/github.pdf">Git/GitHub - Pull Request</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🔍 Regular Expressions</h3>
+                        <p>Regular expressions are special text strings for describing search patterns.</p>
+                        <ul>
+                            <li><a href="pdf/regex.pdf">Regex Cheat Sheet</a></li>
+                            <li><a href="pdf/python-regular-expression-regex.pdf">Regex for Python</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>⚡ PowerShell</h3>
+                        <p>PowerShell is a task automation and configuration management framework from Microsoft.</p>
+                        <ul>
+                            <li><a href="pdf/Powershell.pdf">PowerShell Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>⌨️ VIM</h3>
+                        <p>VIM, aka `Vi IMproved`, is a highly configurable text editor for efficiently creating and changing any kind of text.</p>
+                        <ul>
+                            <li><a href="pdf/vim-cheat-sheet.pdf">VIM Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>👷 Jenkins</h3>
+                        <p>Jenkins is an open-source automation server that enables developers to reliably build, test, and deploy their software.</p>
+                        <ul>
+                            <li><a href="pdf/Jenkins-Cheat-Sheet-converted.pdf">Jenkins Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🔄 CI/CD</h3>
+                        <p>Continuous Integration and Continuous Delivery frameworks for modern software development.</p>
+                        <ul>
+                            <li><a href="pdf/cicd-framework_by_densify.pdf">CI/CD Framework</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🚢 Kubernetes</h3>
+                        <p>Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management.</p>
+                        <ul>
+                            <li><a href="pdf/Kubernetes-Cheat-Sheet.pdf">Kubernetes K8s Cheat Sheet</a></li>
+                            <li><a href="pdf/kubectl.pdf">Kubectl Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🐧 Linux</h3>
+                        <p>Comprehensive collection of Linux commands and tools for system administration.</p>
+                        <ul>
+                            <li><a href="pdf/linux-bash.pdf">Linux Commands 1</a></li>
+                            <li><a href="pdf/linux-bash-terminal.pdf">Linux Commands 2</a></li>
+                            <li><a href="pdf/linux_commands.pdf">Linux Commands 3</a></li>
+                            <li><a href="pdf/linux-networking-tool">Linux Network Tools</a></li>
+                            <li><a href="pdf/linux-networing-tools.pdf">Network Tools</a></li>
+                            <li><a href="pdf/cron.pdf">Cron</a></li>
+                            <li><a href="pdf/rsync.pdf">Rsync</a></li>
+                            <li><a href="pdf/curl.pdf">cURL</a></li>
+                            <li><a href="pdf/ssh.pdf">SSH</a></li>
+                            <li><a href="pdf/netcat.pdf">NC (Netcat)</a></li>
+                            <li><a href="pdf/nmap.pdf">Nmap</a></li>
+                            <li><a href="pdf/Nmap-Cheat-Sheet.pdf">Nmap Cheat Sheet</a></li>
+                            <li><a href="pdf/openssl.pdf">OpenSSL</a></li>
+                            <li><a href="pdf/ethtool.pdf">Ethtool</a></li>
+                            <li><a href="pdf/ngrep.pdf">ngrep</a></li>
+                            <li><a href="pdf/grep.pdf">grep</a></li>
+                            <li><a href="pdf/xargs.pdf">xargs</a></li>
+                            <li><a href="pdf/find.pdf">find</a></li>
+                            <li><a href="pdf/awk.pdf">awk</a></li>
+                            <li><a href="pdf/sed.pdf">sed</a></li>
+                            <li><a href="pdf/tar.pdf">tar</a></li>
+                            <li><a href="pdf/ps.pdf">ps</a></li>
+                            <li><a href="pdf/top.pdf">top</a></li>
+                            <li><a href="pdf/wireshark.pdf">Wireshark</a></li>
+                            <li><a href="pdf/LinuxFileSystems.gif">Linux File Systems</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>💾 Redis</h3>
+                        <p>Redis is an in-memory data structure store used as a database, cache, and message broker.</p>
+                        <ul>
+                            <li><a href="pdf/redis.pdf">Redis Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>💬 Slack</h3>
+                        <p>Slack is a messaging tool for fast and easy communication within teams, organized by channels.</p>
+                        <ul>
+                            <li><a href="pdf/slack.pdf">Slack Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🐕 Puppet</h3>
+                        <p>Puppet lets you automate the enforcement, security, and delivery of your hybrid or cloud-native infrastructure.</p>
+                        <ul>
+                            <li><a href="pdf/puppet.pdf">Puppet Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>☁️ Google Cloud</h3>
+                        <p>Google Cloud Platform cheat sheet for building scalable and highly available applications.</p>
+                        <ul>
+                            <li><a href="pdf/GoogleCloudDeveloper.pdf">Google Cloud Developer</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🤖 AI & ML</h3>
+                        <p>Artificial Intelligence, Machine Learning, Deep Learning & Data Science resources.</p>
+                        <ul>
+                            <li><a href="pdf/AI_ML.pdf">AI & ML Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🐘 PostgreSQL</h3>
+                        <p>PostgreSQL is a free and open-source relational database management system.</p>
+                        <ul>
+                            <li><a href="pdf/PostgreSQL-Cheat-Sheet.pdf">PostgreSQL Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🔄 Ajax</h3>
+                        <p>AJAX = Asynchronous JavaScript And XML.</p>
+                        <ul>
+                            <li><a href="pdf/ajax.pdf">Ajax Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>⛈️ AWS</h3>
+                        <p>Amazon Web Services (AWS) cloud computing platform resources.</p>
+                        <ul>
+                            <li><a href="pdf/AWS-Basic-Cheat-Sheet.pdf">AWS: The Basics</a></li>
+                            <li><a href="pdf/aws-services.pdf">AWS Services</a></li>
+                            <li><a href="pdf/aws-cost.pdf">AWS Cost Information</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🏗️ Infrastructure as Code</h3>
+                        <p>Terraform and other IaC tools for managing cloud services.</p>
+                        <ul>
+                            <li><a href="pdf/terraform-cheatsheet1-.pdf">Terraform Cheat Sheet</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>⚙️ System Design</h3>
+                        <p>System Design architecture and best practices.</p>
+                        <ul>
+                            <li><a href="pdf/System_Design_Blueprint.pdf">System Design Blueprint</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="cheat-sheet-card">
+                        <h3>🔒 Cyber Security</h3>
+                        <p>Cybersecurity fundamentals and DevSecOps practices.</p>
+                        <ul>
+                            <li><a href="pdf/cybersecurity-101.gif">Cyber Security 101</a></li>
+                            <li><a href="pdf/devsecops.gif">What is DevSecOps?</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -207,7 +429,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Cheat Sheet PDF. All rights reserved.</p>
+            <p>Thank you for using our cheat sheet collection! Happy coding! 🚀</p>
+            <a href="https://www.buymeacoffee.com/haim_cohen" class="support-link" target="_blank">Support the project by buying us a coffee ☕</a>
         </div>
     </footer>
 </body>
