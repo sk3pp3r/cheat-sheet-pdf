@@ -14,7 +14,7 @@
             --bg-color: #ffffff;
             --secondary-bg: #f3f4f6;
             --border-color: #e5e7eb;
-            --card-hover: #f8fafc;
+            --hover-bg: #f8fafc;
         }
 
         * {
@@ -60,7 +60,7 @@
         }
 
         .hero {
-            padding: 4rem 0;
+            padding: 2rem 0;
             text-align: center;
             background-color: var(--secondary-bg);
         }
@@ -76,67 +76,67 @@
             font-size: 1.25rem;
             color: #4b5563;
             max-width: 800px;
-            margin: 0 auto 2rem;
+            margin: 0 auto;
         }
 
         .cheat-sheets {
-            padding: 4rem 0;
+            padding: 2rem 0;
         }
 
-        .cheat-sheets-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
+        .cheat-sheet-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
         }
 
-        .cheat-sheet-card {
-            background-color: var(--bg-color);
-            border: 1px solid var(--border-color);
-            border-radius: 1rem;
-            padding: 1.5rem;
-            transition: all 0.3s ease;
+        .cheat-sheet-table th {
+            text-align: left;
+            padding: 1rem;
+            background-color: var(--secondary-bg);
+            border-bottom: 2px solid var(--border-color);
+            font-weight: 600;
         }
 
-        .cheat-sheet-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            background-color: var(--card-hover);
+        .cheat-sheet-table td {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: top;
         }
 
-        .cheat-sheet-card h3 {
-            font-size: 1.25rem;
-            margin-bottom: 1rem;
+        .cheat-sheet-table tr:hover {
+            background-color: var(--hover-bg);
+        }
+
+        .tool-name {
+            font-weight: 600;
             color: var(--primary-color);
             display: flex;
             align-items: center;
             gap: 0.5rem;
         }
 
-        .cheat-sheet-card ul {
-            list-style: none;
-            margin-top: 1rem;
+        .tool-description {
+            color: #4b5563;
+            font-size: 0.95rem;
         }
 
-        .cheat-sheet-card li {
+        .tool-links {
+            list-style: none;
+        }
+
+        .tool-links li {
             margin-bottom: 0.5rem;
         }
 
-        .cheat-sheet-card a {
+        .tool-links a {
             color: var(--text-color);
             text-decoration: none;
             transition: color 0.2s;
         }
 
-        .cheat-sheet-card a:hover {
+        .tool-links a:hover {
             color: var(--primary-color);
-        }
-
-        .section-title {
-            font-size: 2rem;
-            margin-bottom: 2rem;
-            text-align: center;
-            color: var(--text-color);
+            text-decoration: underline;
         }
 
         footer {
@@ -171,8 +171,9 @@
                 font-size: 1rem;
             }
 
-            .cheat-sheets-grid {
-                grid-template-columns: 1fr;
+            .cheat-sheet-table {
+                display: block;
+                overflow-x: auto;
             }
         }
     </style>
@@ -188,241 +189,297 @@
         <section class="hero">
             <div class="container">
                 <h1>DevOps and IT Cheat-Sheet Collection</h1>
-                <p>Welcome to the Cheat-Sheet Collection for DevOps, Engineers, IT professionals, and more! This repository contains a curated list of cheat sheets for various tools and technologies commonly used in the software development and IT industry.</p>
+                <p>Welcome to the Cheat-Sheet Collection for DevOps, Engineers, IT professionals, and more!</p>
             </div>
         </section>
 
         <section class="cheat-sheets">
             <div class="container">
-                <h2 class="section-title">Available Cheat Sheets</h2>
-                <div class="cheat-sheets-grid">
-                    <div class="cheat-sheet-card">
-                        <h3>🐳 Nginx</h3>
-                        <p>Nginx is open-source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.</p>
-                        <ul>
-                            <li><a href="pdf/nginx.pdf">Nginx Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                <table class="cheat-sheet-table">
+                    <thead>
+                        <tr>
+                            <th>Tool</th>
+                            <th>Description</th>
+                            <th>Links</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tool-name">🐳 Nginx</td>
+                            <td class="tool-description">Nginx is open-source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/nginx.pdf">Nginx Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🐳 Docker</h3>
-                        <p>Docker is a tool designed to make it easier to create, deploy, and run applications using containers.</p>
-                        <ul>
-                            <li><a href="pdf/docker.pdf">Docker Cheat Sheet</a></li>
-                            <li><a href="pdf/docker_by_jrebel.pdf">Docker by JRebel</a></li>
-                            <li><a href="pdf/docker-security.pdf">Docker Security</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🐳 Docker</td>
+                            <td class="tool-description">Docker is a tool designed to make it easier to create, deploy, and run applications using containers.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/docker.pdf">Docker Cheat Sheet</a></li>
+                                    <li><a href="pdf/docker_by_jrebel.pdf">Docker by JRebel</a></li>
+                                    <li><a href="pdf/docker-security.pdf">Docker Security</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🔧 Ansible</h3>
-                        <p>Ansible is the simplest way to automate apps and IT infrastructure.</p>
-                        <ul>
-                            <li><a href="pdf/ansible.pdf">Ansible Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🔧 Ansible</td>
+                            <td class="tool-description">Ansible is the simplest way to automate apps and IT infrastructure.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/ansible.pdf">Ansible Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🐍 Python</h3>
-                        <p>Python is a high-level, interpreted programming language known for its simplicity and versatility.</p>
-                        <ul>
-                            <li><a href="pdf/cheatsheet-python-grok.pdf">Python 3 - The Basics</a></li>
-                            <li><a href="pdf/python_beginners.pdf">Python for Beginners</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🐍 Python</td>
+                            <td class="tool-description">Python is a high-level, interpreted programming language known for its simplicity and versatility.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/cheatsheet-python-grok.pdf">Python 3 - The Basics</a></li>
+                                    <li><a href="pdf/python_beginners.pdf">Python for Beginners</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🐎 Go (Golang)</h3>
-                        <p>Go, also known as Golang, is a statically typed, compiled programming language designed at Google.</p>
-                        <ul>
-                            <li><a href="pdf/go_golang.pdf">Go (Golang) Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🐎 Go (Golang)</td>
+                            <td class="tool-description">Go, also known as Golang, is a statically typed, compiled programming language designed at Google.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/go_golang.pdf">Go (Golang) Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🐙 Git</h3>
-                        <p>Git is a distributed version control system for tracking changes in source code.</p>
-                        <ul>
-                            <li><a href="pdf/atlassian-git-cheatsheet.pdf">Git by Atlassian</a></li>
-                            <li><a href="pdf/git_by_github.pdf">Git by GitHub</a></li>
-                            <li><a href="pdf/git_by_git-tower.pdf">Git by Git-Tower</a></li>
-                            <li><a href="pdf/github.pdf">Git/GitHub - Pull Request</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🐙 Git</td>
+                            <td class="tool-description">Git is a distributed version control system for tracking changes in source code.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/atlassian-git-cheatsheet.pdf">Git by Atlassian</a></li>
+                                    <li><a href="pdf/git_by_github.pdf">Git by GitHub</a></li>
+                                    <li><a href="pdf/git_by_git-tower.pdf">Git by Git-Tower</a></li>
+                                    <li><a href="pdf/github.pdf">Git/GitHub - Pull Request</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🔍 Regular Expressions</h3>
-                        <p>Regular expressions are special text strings for describing search patterns.</p>
-                        <ul>
-                            <li><a href="pdf/regex.pdf">Regex Cheat Sheet</a></li>
-                            <li><a href="pdf/python-regular-expression-regex.pdf">Regex for Python</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🔍 Regular Expressions</td>
+                            <td class="tool-description">Regular expressions are special text strings for describing search patterns.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/regex.pdf">Regex Cheat Sheet</a></li>
+                                    <li><a href="pdf/python-regular-expression-regex.pdf">Regex for Python</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>⚡ PowerShell</h3>
-                        <p>PowerShell is a task automation and configuration management framework from Microsoft.</p>
-                        <ul>
-                            <li><a href="pdf/Powershell.pdf">PowerShell Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">⚡ PowerShell</td>
+                            <td class="tool-description">PowerShell is a task automation and configuration management framework from Microsoft.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/Powershell.pdf">PowerShell Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>⌨️ VIM</h3>
-                        <p>VIM, aka `Vi IMproved`, is a highly configurable text editor for efficiently creating and changing any kind of text.</p>
-                        <ul>
-                            <li><a href="pdf/vim-cheat-sheet.pdf">VIM Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">⌨️ VIM</td>
+                            <td class="tool-description">VIM, aka `Vi IMproved`, is a highly configurable text editor for efficiently creating and changing any kind of text.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/vim-cheat-sheet.pdf">VIM Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>👷 Jenkins</h3>
-                        <p>Jenkins is an open-source automation server that enables developers to reliably build, test, and deploy their software.</p>
-                        <ul>
-                            <li><a href="pdf/Jenkins-Cheat-Sheet-converted.pdf">Jenkins Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">👷 Jenkins</td>
+                            <td class="tool-description">Jenkins is an open-source automation server that enables developers to reliably build, test, and deploy their software.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/Jenkins-Cheat-Sheet-converted.pdf">Jenkins Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🔄 CI/CD</h3>
-                        <p>Continuous Integration and Continuous Delivery frameworks for modern software development.</p>
-                        <ul>
-                            <li><a href="pdf/cicd-framework_by_densify.pdf">CI/CD Framework</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🔄 CI/CD</td>
+                            <td class="tool-description">Continuous Integration and Continuous Delivery frameworks for modern software development.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/cicd-framework_by_densify.pdf">CI/CD Framework</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🚢 Kubernetes</h3>
-                        <p>Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management.</p>
-                        <ul>
-                            <li><a href="pdf/Kubernetes-Cheat-Sheet.pdf">Kubernetes K8s Cheat Sheet</a></li>
-                            <li><a href="pdf/kubectl.pdf">Kubectl Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🚢 Kubernetes</td>
+                            <td class="tool-description">Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/Kubernetes-Cheat-Sheet.pdf">Kubernetes K8s Cheat Sheet</a></li>
+                                    <li><a href="pdf/kubectl.pdf">Kubectl Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🐧 Linux</h3>
-                        <p>Comprehensive collection of Linux commands and tools for system administration.</p>
-                        <ul>
-                            <li><a href="pdf/linux-bash.pdf">Linux Commands 1</a></li>
-                            <li><a href="pdf/linux-bash-terminal.pdf">Linux Commands 2</a></li>
-                            <li><a href="pdf/linux_commands.pdf">Linux Commands 3</a></li>
-                            <li><a href="pdf/linux-networking-tool">Linux Network Tools</a></li>
-                            <li><a href="pdf/linux-networing-tools.pdf">Network Tools</a></li>
-                            <li><a href="pdf/cron.pdf">Cron</a></li>
-                            <li><a href="pdf/rsync.pdf">Rsync</a></li>
-                            <li><a href="pdf/curl.pdf">cURL</a></li>
-                            <li><a href="pdf/ssh.pdf">SSH</a></li>
-                            <li><a href="pdf/netcat.pdf">NC (Netcat)</a></li>
-                            <li><a href="pdf/nmap.pdf">Nmap</a></li>
-                            <li><a href="pdf/Nmap-Cheat-Sheet.pdf">Nmap Cheat Sheet</a></li>
-                            <li><a href="pdf/openssl.pdf">OpenSSL</a></li>
-                            <li><a href="pdf/ethtool.pdf">Ethtool</a></li>
-                            <li><a href="pdf/ngrep.pdf">ngrep</a></li>
-                            <li><a href="pdf/grep.pdf">grep</a></li>
-                            <li><a href="pdf/xargs.pdf">xargs</a></li>
-                            <li><a href="pdf/find.pdf">find</a></li>
-                            <li><a href="pdf/awk.pdf">awk</a></li>
-                            <li><a href="pdf/sed.pdf">sed</a></li>
-                            <li><a href="pdf/tar.pdf">tar</a></li>
-                            <li><a href="pdf/ps.pdf">ps</a></li>
-                            <li><a href="pdf/top.pdf">top</a></li>
-                            <li><a href="pdf/wireshark.pdf">Wireshark</a></li>
-                            <li><a href="pdf/LinuxFileSystems.gif">Linux File Systems</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🐧 Linux</td>
+                            <td class="tool-description">Comprehensive collection of Linux commands and tools for system administration.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/linux-bash.pdf">Linux Commands 1</a></li>
+                                    <li><a href="pdf/linux-bash-terminal.pdf">Linux Commands 2</a></li>
+                                    <li><a href="pdf/linux_commands.pdf">Linux Commands 3</a></li>
+                                    <li><a href="pdf/linux-networking-tool">Linux Network Tools</a></li>
+                                    <li><a href="pdf/linux-networing-tools.pdf">Network Tools</a></li>
+                                    <li><a href="pdf/cron.pdf">Cron</a></li>
+                                    <li><a href="pdf/rsync.pdf">Rsync</a></li>
+                                    <li><a href="pdf/curl.pdf">cURL</a></li>
+                                    <li><a href="pdf/ssh.pdf">SSH</a></li>
+                                    <li><a href="pdf/netcat.pdf">NC (Netcat)</a></li>
+                                    <li><a href="pdf/nmap.pdf">Nmap</a></li>
+                                    <li><a href="pdf/Nmap-Cheat-Sheet.pdf">Nmap Cheat Sheet</a></li>
+                                    <li><a href="pdf/openssl.pdf">OpenSSL</a></li>
+                                    <li><a href="pdf/ethtool.pdf">Ethtool</a></li>
+                                    <li><a href="pdf/ngrep.pdf">ngrep</a></li>
+                                    <li><a href="pdf/grep.pdf">grep</a></li>
+                                    <li><a href="pdf/xargs.pdf">xargs</a></li>
+                                    <li><a href="pdf/find.pdf">find</a></li>
+                                    <li><a href="pdf/awk.pdf">awk</a></li>
+                                    <li><a href="pdf/sed.pdf">sed</a></li>
+                                    <li><a href="pdf/tar.pdf">tar</a></li>
+                                    <li><a href="pdf/ps.pdf">ps</a></li>
+                                    <li><a href="pdf/top.pdf">top</a></li>
+                                    <li><a href="pdf/wireshark.pdf">Wireshark</a></li>
+                                    <li><a href="pdf/LinuxFileSystems.gif">Linux File Systems</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>💾 Redis</h3>
-                        <p>Redis is an in-memory data structure store used as a database, cache, and message broker.</p>
-                        <ul>
-                            <li><a href="pdf/redis.pdf">Redis Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">💾 Redis</td>
+                            <td class="tool-description">Redis is an in-memory data structure store used as a database, cache, and message broker.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/redis.pdf">Redis Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>💬 Slack</h3>
-                        <p>Slack is a messaging tool for fast and easy communication within teams, organized by channels.</p>
-                        <ul>
-                            <li><a href="pdf/slack.pdf">Slack Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">💬 Slack</td>
+                            <td class="tool-description">Slack is a messaging tool for fast and easy communication within teams, organized by channels.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/slack.pdf">Slack Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🐕 Puppet</h3>
-                        <p>Puppet lets you automate the enforcement, security, and delivery of your hybrid or cloud-native infrastructure.</p>
-                        <ul>
-                            <li><a href="pdf/puppet.pdf">Puppet Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🐕 Puppet</td>
+                            <td class="tool-description">Puppet lets you automate the enforcement, security, and delivery of your hybrid or cloud-native infrastructure.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/puppet.pdf">Puppet Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>☁️ Google Cloud</h3>
-                        <p>Google Cloud Platform cheat sheet for building scalable and highly available applications.</p>
-                        <ul>
-                            <li><a href="pdf/GoogleCloudDeveloper.pdf">Google Cloud Developer</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">☁️ Google Cloud</td>
+                            <td class="tool-description">Google Cloud Platform cheat sheet for building scalable and highly available applications.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/GoogleCloudDeveloper.pdf">Google Cloud Developer</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🤖 AI & ML</h3>
-                        <p>Artificial Intelligence, Machine Learning, Deep Learning & Data Science resources.</p>
-                        <ul>
-                            <li><a href="pdf/AI_ML.pdf">AI & ML Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🤖 AI & ML</td>
+                            <td class="tool-description">Artificial Intelligence, Machine Learning, Deep Learning & Data Science resources.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/AI_ML.pdf">AI & ML Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🐘 PostgreSQL</h3>
-                        <p>PostgreSQL is a free and open-source relational database management system.</p>
-                        <ul>
-                            <li><a href="pdf/PostgreSQL-Cheat-Sheet.pdf">PostgreSQL Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🐘 PostgreSQL</td>
+                            <td class="tool-description">PostgreSQL is a free and open-source relational database management system.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/PostgreSQL-Cheat-Sheet.pdf">PostgreSQL Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🔄 Ajax</h3>
-                        <p>AJAX = Asynchronous JavaScript And XML.</p>
-                        <ul>
-                            <li><a href="pdf/ajax.pdf">Ajax Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🔄 Ajax</td>
+                            <td class="tool-description">AJAX = Asynchronous JavaScript And XML.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/ajax.pdf">Ajax Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>⛈️ AWS</h3>
-                        <p>Amazon Web Services (AWS) cloud computing platform resources.</p>
-                        <ul>
-                            <li><a href="pdf/AWS-Basic-Cheat-Sheet.pdf">AWS: The Basics</a></li>
-                            <li><a href="pdf/aws-services.pdf">AWS Services</a></li>
-                            <li><a href="pdf/aws-cost.pdf">AWS Cost Information</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">⛈️ AWS</td>
+                            <td class="tool-description">Amazon Web Services (AWS) cloud computing platform resources.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/AWS-Basic-Cheat-Sheet.pdf">AWS: The Basics</a></li>
+                                    <li><a href="pdf/aws-services.pdf">AWS Services</a></li>
+                                    <li><a href="pdf/aws-cost.pdf">AWS Cost Information</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🏗️ Infrastructure as Code</h3>
-                        <p>Terraform and other IaC tools for managing cloud services.</p>
-                        <ul>
-                            <li><a href="pdf/terraform-cheatsheet1-.pdf">Terraform Cheat Sheet</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">🏗️ Infrastructure as Code</td>
+                            <td class="tool-description">Terraform and other IaC tools for managing cloud services.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/terraform-cheatsheet1-.pdf">Terraform Cheat Sheet</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>⚙️ System Design</h3>
-                        <p>System Design architecture and best practices.</p>
-                        <ul>
-                            <li><a href="pdf/System_Design_Blueprint.pdf">System Design Blueprint</a></li>
-                        </ul>
-                    </div>
+                        <tr>
+                            <td class="tool-name">⚙️ System Design</td>
+                            <td class="tool-description">System Design architecture and best practices.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/System_Design_Blueprint.pdf">System Design Blueprint</a></li>
+                                </ul>
+                            </td>
+                        </tr>
 
-                    <div class="cheat-sheet-card">
-                        <h3>🔒 Cyber Security</h3>
-                        <p>Cybersecurity fundamentals and DevSecOps practices.</p>
-                        <ul>
-                            <li><a href="pdf/cybersecurity-101.gif">Cyber Security 101</a></li>
-                            <li><a href="pdf/devsecops.gif">What is DevSecOps?</a></li>
-                        </ul>
-                    </div>
-                </div>
+                        <tr>
+                            <td class="tool-name">🔒 Cyber Security</td>
+                            <td class="tool-description">Cybersecurity fundamentals and DevSecOps practices.</td>
+                            <td>
+                                <ul class="tool-links">
+                                    <li><a href="pdf/cybersecurity-101.gif">Cyber Security 101</a></li>
+                                    <li><a href="pdf/devsecops.gif">What is DevSecOps?</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
     </main>
